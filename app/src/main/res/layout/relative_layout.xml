@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buttom One" />
+
+    <Button
+        android:id="@+id/buttonTwo"
+        android:layout_marginLeft="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOne"
+        android:text="Button Two"/>
+
+    <Button
+        android:id="@+id/buttonThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOne"
+        android:layout_toRightOf="@+id/buttonTwo"
+        android:text="Button Three"/>
+
+    <Button
+        android:id="@+id/buttonFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOne"
+        android:layout_toRightOf="@+id/buttonThree"
+        android:text="Button Four"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonTwo"
+        android:layout_centerHorizontal="true"
+        android:text="Buttom five"/>
+
+
+
+</RelativeLayout>
